@@ -41,7 +41,7 @@ const foo = require("filename");
 ```
 
 ## Passing arrays
-If you one to pass more than one Object or Bucket to a function do it like this:
+If you want to pass more than one Object or Bucket to a function do it like this:
 
 ```js
 var bucket= [{Key: 'a.txt'}, {Key: 'b.txt'}, {Key: 'c.txt'}];
