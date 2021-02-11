@@ -1,0 +1,25 @@
+{
+  "name": "node-s3-basic",
+  "version": "0.1.0",
+  "description": "An Amazon S3 client for uploading and downloading files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socialatm/node-s3-basic"
+  },
+  "keywords": [
+    "amazon",
+    "s3",
+    "storage",
+    "node"
+  ],
+  "author": "Ray Peaslee",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.841.0",
+    "dotenv": "^8.2.0"
+  }
+}
